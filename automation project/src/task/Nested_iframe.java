@@ -35,6 +35,10 @@ public class Nested_iframe {
 		if(display) {
 			System.out.println("Confirmation Message is displayed");
 		}
+		else {
+			System.out.println("Confirmation Message is not displayed");
+
+		}
 		Thread.sleep(3000);
 		driver.quit();
 	}
